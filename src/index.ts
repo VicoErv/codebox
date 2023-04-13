@@ -214,7 +214,10 @@ class CodeBox {
 
     return themeURL;
   }
+  
+  static get isReadOnlySupported() {
+    return true;
+  }
 }
-
 
 export default CodeBox;
